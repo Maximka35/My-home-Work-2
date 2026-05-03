@@ -1,6 +1,6 @@
-.body {
+body {
     font-family: 'Roboto', sans-serif;
-    color: #2e2f42;
+    color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #fff
@@ -16,13 +16,13 @@ a {
     color: inherit;
 }
 
-.address {
+address {
     font-style: normal;
 }
 
-.link:hover,
-.link:focus {
-    color: #4d5ae5;
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
 }
 
 .logo-light {
@@ -32,23 +32,27 @@ a {
 
 .logo {
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 1.33333;
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4D5AE5;
+    color: #f4f4fd;
+    text-transform: uppercase;
 
 }
 
 .section-title {
+    color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
 
 .block-title {
+    color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -56,6 +60,7 @@ a {
 }
 
 .block-text {
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
