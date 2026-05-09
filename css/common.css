@@ -1,83 +1,59 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    background-color: #fff
-}
-
-ul,
-ol {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-address {
-    font-style: normal;
-}
-
-.nav-link {
-    color: #2E2F42;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact-link {
-    color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-}
-
-.logo-light {
-    font-family: 'Raleway', sans-serif;
-    color: #4d5ae5;
-}
-
-.logo {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    color: #2E2F42;
-    text-transform: uppercase;
-
-}
-
-.section-title {
-    color: #2E2F42;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-
-.block-title {
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.block-text {
-    color: #434455;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.sr-only {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    margin: -1px;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.img {
+    display: block;
 }
